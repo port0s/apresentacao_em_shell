@@ -1,0 +1,26 @@
+function Textos
+{
+	declare -ag Frases=(
+	"#  Já sabemos que a sintaxe do notify-send é:"
+	"#+ 	$Verd$ notify-send [OPTs] TITULO [TEXTO]"
+	""
+	"#  Então, para começar devagarinho vamos ver um"
+	"#+ exemplo passandp somente o título TITULO:"
+	"$ notify-send 'Alô Mundo'"
+	"# Mas poderíamos também preencher o campo TEXTO:"
+	"$ notify-send 'Dá um tempo!' 'HOra de ver o jogo <b>porra</b>'"
+	""
+	"# Vejamos então o uso da opção $Verd-i$Amar."
+	"$ notify-send -i face-smile 'Alô Mundo' 'Cheguei e trouxe o notify-send'"
+	"# E que tal usar um site, porque além de tudo, os URLs são renderizados como clicáveis."
+	"$ notify-send 'Quer ir ao site do Google?' 'https://google.com'"
+	"# UM uso bastante prático deste utilitário é para te avisar do fim de um processo em background."
+	"$ cat dispara_job.sh"
+	"# Teste-o executando um processo demorado, como:"
+	"$ dispara_job 'time find / &>/dev/null' &"
+	"$ clear"
+	"# Agora daremos uma viajada pelo mundo do YAD, para"
+	"#+ que vocês possam ver uma outra carinha GUI do shell"
+	"$ cd ~/tstsh"
+	"$cat cal0.yad")
+}
